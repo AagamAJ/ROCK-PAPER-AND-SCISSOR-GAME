@@ -6,7 +6,7 @@ This is a simple Rock-Paper-Scissors game implemented in Java. The user can play
 
 ## How to Play
 
-1. Clone the repository or download the `Project_02.java` file.
+1. Clone the repository or download the `game.java` file.
 2. Compile the Java code using a Java compiler of your choice.
 3. Run the compiled Java program in your terminal or command prompt.
 4. The program will prompt you to enter a number to represent your choice:
