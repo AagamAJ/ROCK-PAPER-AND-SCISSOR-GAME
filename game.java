@@ -24,9 +24,9 @@ public class Project_02 {
             int pc = (int) (Math.random() * (3 - 1 + 1) + 1);
 //            System.out.println(pc);
             switch (pc) {
-                case 1 -> System.out.println("PC has chosen is Rock");
-                case 2 -> System.out.println("PC has chosen is Paper");
-                case 3 -> System.out.println("PC has chosen is Scissor");
+                case 1 -> System.out.println("PC has chosen Rock");
+                case 2 -> System.out.println("PC has chosen Paper");
+                case 3 -> System.out.println("PC has chosen Scissor");
             }
 
             if (pc == a) {
@@ -53,10 +53,10 @@ public class Project_02 {
             System.out.println("The Series is Drawn");
         }
         else if (win>loss) {
-            System.out.println("YOU Wins the Series");
+            System.out.println("YOU WON the Series");
         }
         else {
-            System.out.println("PC Wins the Series");
+            System.out.println("PC WON the Series");
         }
     }
 }
